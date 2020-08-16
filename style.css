@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+#locate {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+#details {
+  position: fixed;
+  top: 50px;
+  left: 10px;
+  background: #333;
+  color: #ccc;
+  opacity: 0.9;
+  line-height: 1.7rem;
+}
+
+#details-list {
+  list-style: none;
+  padding: 5px;
+}
